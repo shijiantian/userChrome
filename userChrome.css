@@ -211,15 +211,15 @@
     * { -moz-outline-radius: 0px !important; border-radius: 0px !important; }
     #navigator-toolbox::after { border-bottom-color: hsla(240, 5%, 5%, .3) !important; }
     #nav-bar-customization-target { background: none !important; }
-    #nav-bar { border: none !important; margin-left: 640px !important; background: none !important; margin-right: 110px !important; }
-    #TabsToolbar { -moz-box-ordinal-group: 0 !important; position: fixed !important; display: flex !important; --space-above-tabbar: 0px !important; }
-    #tabbrowser-tabs { max-width: 580px !important; }
+    #nav-bar { border: none !important; margin-left: 900px !important; background: none !important; margin-right: 5px !important; }
+    #TabsToolbar { -moz-box-ordinal-group: 0 !important; position: fixed !important; display: flex !important; --space-above-tabbar: 0px !important;}
+    #tabbrowser-tabs { max-width: 860px !important;min-width: 860px !important;}
     #TabsToolbar .toolbarbutton-1 { --toolbarbutton-inner-padding: 5px !important; }
     #nav-bar .toolbarbutton-1 { margin: 0px !important; padding: 0px !important; }
     #urlbar .autocomplete-history-dropmarker { margin-top: 1px !important; margin-bottom: 1px !important; }
     #urlbar { background: none !important; border: none !important; box-shadow: none !important; margin: 1px 0 !important; padding-right: 1px !important; }
     #urlbar:hover { background-color: hsla(240, 5%, 5%, .1) !important; }
     .tabbrowser-tab { min-width: 100px !important; }
-    .tabbrowser-tab[selected=true] { min-width: 200px !important; }
+    .tabbrowser-tab[selected=true] { min-width: 150px !important; }
     .tab-line { max-height: 1px !important; }
     .titlebar-placeholder[type="pre-tabs"] { width: 1px !important; }
